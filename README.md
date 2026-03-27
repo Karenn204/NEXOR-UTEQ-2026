@@ -53,23 +53,23 @@ npm start
 ## 📂 Estructura del Backend
 
 BACKEND/
- ├── node_modules/
- ├── src/
- │   ├── config/           # Configuraciones (DB, JWT)
- │   ├── controllers/      # Controladores de la lógica de negocio
- │   ├── middlewares/      # Middlewares de autenticación y roles
- │   ├── models/           # Modelos de datos
- │   ├── routes/           # Rutas de la API
- │   ├── services/         # Servicios (email, archivos)
- │   ├── uploads/          # Archivos subidos
- │   │   └── documents/    # Documentos por proyecto
- │   ├── utils/            # Utilidades (JWT, multer)
- │   ├── app.js            # Configuración de Express
- │   └── server.js         # Punto de entrada
- ├── .env
- ├── .gitignore
- ├── package.json
- └── package-lock.json
+├── node_modules/
+├── src/
+│ ├── config/ # Configuraciones (DB, JWT)
+│ ├── controllers/ # Controladores de la lógica de negocio
+│ ├── middlewares/ # Middlewares de autenticación y roles
+│ ├── models/ # Modelos de datos
+│ ├── routes/ # Rutas de la API
+│ ├── services/ # Servicios (email, archivos)
+│ ├── uploads/ # Archivos subidos
+│ │ └── documents/ # Documentos por proyecto
+│ ├── utils/ # Utilidades (JWT, multer)
+│ ├── app.js # Configuración de Express
+│ └── server.js # Punto de entrada
+├── .env
+├── .gitignore
+├── package.json
+└── package-lock.json
 
 ---
 
@@ -99,30 +99,30 @@ npm run build
 FRONTEND/
 ├── node_modules/
 ├── public/
-│   ├── pdf.worker.min.mjs
-│   └── vite.svg
+│ ├── pdf.worker.min.mjs
+│ └── vite.svg
 ├── src/
-│   ├── assets/           # Imágenes y recursos estáticos
-│   ├── components/       # Componentes reutilizables
-│   │   ├── Messages/     # Componentes de mensajes
-│   │   ├── Modals/       # Modales (crear cuenta, reset password)
-│   │   ├── Navbars/      # Barra de navegación
-│   │   ├── Notifications/# Sistema de notificaciones
-│   │   └── Sidebars/     # Sidebars por rol de usuario
-│   ├── contexts/         # Contextos (AuthContext)
-│   ├── guards/           # Guards de rutas y roles
-│   ├── hooks/            # Hooks personalizados
-│   ├── layouts/          # Layouts por tipo de usuario
-│   ├── pages/            # Páginas por rol
-│   │   ├── Administrator/# Páginas de administrador
-│   │   ├── Auth/         # Login y registro
-│   │   ├── Cliente/      # Páginas de cliente
-│   │   ├── Colaborador/  # Páginas de colaborador
-│   │   └── Superadministrador/ # Páginas de superadmin
-│   ├── routes/           # Configuración de rutas (AppRoutes.jsx)
-│   ├── services/         # Servicios para API calls
-│   ├── App.jsx           # Componente principal
-│   └── main.jsx          # Punto de entrada
+│ ├── assets/ # Imágenes y recursos estáticos
+│ ├── components/ # Componentes reutilizables
+│ │ ├── Messages/ # Componentes de mensajes
+│ │ ├── Modals/ # Modales (crear cuenta, reset password)
+│ │ ├── Navbars/ # Barra de navegación
+│ │ ├── Notifications/# Sistema de notificaciones
+│ │ └── Sidebars/ # Sidebars por rol de usuario
+│ ├── contexts/ # Contextos (AuthContext)
+│ ├── guards/ # Guards de rutas y roles
+│ ├── hooks/ # Hooks personalizados
+│ ├── layouts/ # Layouts por tipo de usuario
+│ ├── pages/ # Páginas por rol
+│ │ ├── Administrator/# Páginas de administrador
+│ │ ├── Auth/ # Login y registro
+│ │ ├── Cliente/ # Páginas de cliente
+│ │ ├── Colaborador/ # Páginas de colaborador
+│ │ └── Superadministrador/ # Páginas de superadmin
+│ ├── routes/ # Configuración de rutas (AppRoutes.jsx)
+│ ├── services/ # Servicios para API calls
+│ ├── App.jsx # Componente principal
+│ └── main.jsx # Punto de entrada
 ├── .gitignore
 ├── eslint.config.js
 ├── index.html
